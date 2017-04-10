@@ -8,6 +8,8 @@ to a set of PNG files.
 Also includes a custom GUI which runs alongside a PDF presenting program and
 shows a presenter view with the current and next slides.
 
+![Viewer example image](/docs/viewer.png?raw=true "Viewer example")
+
 Usage
 -----
 
@@ -26,3 +28,10 @@ The presenter view is triggered with::
 
 This currently requires you to have the ``pywinauto`` library, be running on
 Windows, and be using the SumatraPDF reader.
+
+Why?
+----
+
+I make and run presentations off of both Linux and Windows, and when I
+started speaking that meant very few options of program. Now, I stick with
+SVG slides out of both laziness and a love for Inkscape's drawing tools.
